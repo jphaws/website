@@ -1,0 +1,39 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "personal-website",
+  "author": "jphaws",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mdx-js/react": "^2.3.0",
+    "@vanilla-extract/babel-plugin": "^1.1.7",
+    "@vanilla-extract/css": "^1.7.2",
+    "@vanilla-extract/webpack-plugin": "^2.1.11",
+    "gatsby": "^5.8.0",
+    "gatsby-plugin-image": "^3.8.0",
+    "gatsby-plugin-mdx": "^5.8.0",
+    "gatsby-plugin-sharp": "^5.8.0",
+    "gatsby-plugin-vanilla-extract": "^4.0.1",
+    "gatsby-source-filesystem": "^5.8.0",
+    "gatsby-transformer-sharp": "^5.8.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.40",
+    "@types/react": "^18.0.12",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.3"
+  }
+}
