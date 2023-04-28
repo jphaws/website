@@ -9,7 +9,7 @@ const IndexPage = () => {
       <p>There's not very much here right now, but there might be more if you check back later!</p>
       <StaticImage         
         alt="Cal Poly banners near Spanos Stadium"
-        src="https://content-calpoly-edu.s3.amazonaws.com/bio/1/rotator_images/DEI_statement-hero.jpg"
+        src="../images/CalPoly.webp"
       />
     </Layout>
   )
