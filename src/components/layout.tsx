@@ -58,14 +58,14 @@ const Layout: React.FunctionComponent<LayoutProps> = ({ pageTitle, children }) =
                 <nav>
                     <ul className={navLinks}>
                         <li className={navLinkItem}>
-                            <Link to="https://www.linkedin.com/in/jaxon-haws/" className={navLinkText}>
+                            <a href="https://www.linkedin.com/in/jaxon-haws/" className={navLinkText}>
                                <FiLinkedin color = "blue" /> 
-                            </Link>
+                            </a>
                         </li>
                         <li className={navLinkItem}>
-                            <Link to="https://www.github.com/jphaws" className={navLinkText}>
+                            <a href="https://www.github.com/jphaws" className={navLinkText}>
                                <FiGithub color = "blue" /> 
-                            </Link>
+                            </a>
                         </li>
                         <li>
                         <a href="mailto: jphaws@calpoly.edu"> <FiMail color="blue" /> </a>
